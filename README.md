@@ -2,6 +2,8 @@ This is a journal system that will track state for Ironsworn. This allows you to
 
 I enjoy using printed assets, dice, rulebook etc, so this journal doesn't do those things. It's just a way to update the game state with events.
 
+![example](Screenshot_2023-12-27_09-44-06.png)
+
 ### Installation
 
 This project uses a Jupyter Notebook, which is modified to appear as an Ironsworn journal.
@@ -13,6 +15,8 @@ To run these steps, I install a virtualenv. I run a Debian machine but I suppose
 	pip install -r requirements.txt
 	
 ### Usage
+
+There is a template notebook called ```template.ipynb```
 
 	jupyter notebook
 
@@ -50,6 +54,10 @@ There are these functions defined for player's use:
 	adds one progress, ticks according to the vow rank
 - enemyInflictsHarm(name)
 	does player damage, according to the enemy rank	
+
+### EXAMPLE PLAY
+
+I have started an adventure and have played it through to completing one vow.
 
 ### LICENCE
 
